@@ -8,27 +8,47 @@
 <body>
 
   <!-- Header -->
-  <div class="header">
+  <header class="header">
     <div class="logo">🐙 GitHub</div>
     <input type="text" placeholder="Search">
-  </div>
+  </header>
 
-  <!-- Main Layout -->
+  <!-- Main Container -->
   <div class="container">
 
-    <!-- Left Profile Box -->
-    <div class="profile"></div>
+    <!-- Left Profile -->
+    <aside class="profile">
+      <h2>Profile</h2>
+      <p>Username</p>
+      <p>Bio information</p>
+    </aside>
 
-    <!-- Right Content -->
-    <div class="content">
-      <div class="cards">
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-      </div>
+    <!-- Right Section -->
+    <main class="content">
 
-      <div class="long-box"></div>
-    </div>
+      <!-- Repo Cards -->
+      <section class="cards">
+        <div class="card">
+          <h3>Repository 1</h3>
+          <p>Project description</p>
+        </div>
+        <div class="card">
+          <h3>Repository 2</h3>
+          <p>Project description</p>
+        </div>
+        <div class="card">
+          <h3>Repository 3</h3>
+          <p>Project description</p>
+        </div>
+      </section>
+
+      <!-- Activity -->
+      <section class="long-box">
+        <h3>Contribution Activity</h3>
+        <p>Recent commits and activity appear here</p>
+      </section>
+
+    </main>
 
   </div>
 
