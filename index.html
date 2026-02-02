@@ -2,53 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>GitHub Profile Page</title>
+    <title>GitHub Clone</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- HEADER -->
-    <header class="header">
+    <!-- Navbar -->
+    <header class="navbar">
         <div class="logo">GitHub</div>
-        <input type="text" placeholder="Search">
+        <nav>
+            <a href="#">Why GitHub?</a>
+            <a href="#">Team</a>
+            <a href="#">Enterprise</a>
+            <a href="#">Explore</a>
+            <a href="#">Marketplace</a>
+            <a href="#">Pricing</a>
+        </nav>
+        <div class="auth">
+            <a href="#">Sign in</a>
+            <button>Sign up</button>
+        </div>
     </header>
 
-    <!-- MAIN CONTAINER -->
-    <div class="container">
-
-        <!-- LEFT PROFILE -->
-        <div class="profile">
-            <h2>Profile</h2>
-            <p><strong>Username:</strong> Maha Vignesh Shree</p>
-            <p><strong>Bio:</strong> Aspiring Full Stack Developer</p>
-            <p><strong>Location:</strong> India</p>
+    <!-- Main Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Where the world builds software</h1>
+            <p>
+                Millions of developers use GitHub to build, ship, and maintain
+                software together.
+            </p>
+            <form class="signup-form">
+                <input type="email" placeholder="Email address">
+                <button type="submit">Sign up for GitHub</button>
+            </form>
         </div>
+    </section>
 
-        <!-- RIGHT CONTENT -->
-        <div class="content">
-
-            <!-- REPOSITORIES -->
-            <div class="repo-row">
-                <div class="card">
-                    <h3>Repository 1</h3>
-                    <p>HTML & CSS practice project</p>
-                </div>
-
-                <div class="card">
-                    <h3>Repository 2</h3>
-                    <p>Java OOP assignments</p>
-                </div>
-
-                <div class="card">
-                    <h3>Repository 3</h3>
-                    <p>GUVI tasks and exercises</p>
-                </div>
-            </div>
-
-            <!-- CONTRIBUTIONS -->
-            <div class="long-box">
-                <h3>Contribution Activity</h3>
-                <p>Recent commits, pull requests, and activity will appear here.</p>
-            </div>
-
-        </div>
+</body>
+</html>
