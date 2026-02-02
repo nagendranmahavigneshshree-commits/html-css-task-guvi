@@ -15,8 +15,8 @@ body {
     color: white;
     padding: 12px 40px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navbar input {
@@ -43,10 +43,6 @@ body {
     height: fit-content;
 }
 
-.sidebar h2 {
-    margin-bottom: 5px;
-}
-
 .username {
     color: gray;
     margin-bottom: 10px;
@@ -57,19 +53,19 @@ body {
     margin-bottom: 15px;
 }
 
-/* Repository Grid */
-.repo-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+/* REPO BOXES – STRAIGHT LINE */
+.repo-row {
+    display: flex;
+    gap: 20px;              /* space between boxes */
     margin-bottom: 30px;
 }
 
 .repo-card {
+    flex: 1;                /* equal width boxes */
     background-color: white;
-    padding: 15px;
-    border-radius: 8px;
     border: 1px solid #d0d7de;
+    border-radius: 8px;
+    padding: 16px;
 }
 
 .repo-card h4 {
@@ -77,36 +73,10 @@ body {
     margin-bottom: 8px;
 }
 
-/* Activity */
+/* Activity Box */
 .activity-box {
     background-color: white;
     padding: 20px;
     border-radius: 8px;
     border: 1px solid #d0d7de;
 }
-body {
-    background-color: #f6f8fa;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Container */
-.box-container {
-    display: flex;
-    justify-content: space-between; /* space between boxes */
-    align-items: center;
-    max-width: 1000px;
-    margin: 100px auto;
-    gap: 20px; /* clean space between boxes */
-}
-
-/* Boxes */
-.box {
-    flex: 1; /* all boxes same width */
-    background-color: white;
-    border: 1px solid #d0d7de;
-    padding: 30px;
-    text-align: center;
-    border-radius: 8px;
-    font-weight: bold;
-}
-
