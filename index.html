@@ -2,42 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>GitHub Clone</title>
+    <title>GitHub Profile Clone</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Navbar -->
-    <header class="navbar">
-        <div class="logo">GitHub</div>
-        <nav>
-            <a href="#">Why GitHub?</a>
-            <a href="#">Team</a>
-            <a href="#">Enterprise</a>
-            <a href="#">Explore</a>
-            <a href="#">Marketplace</a>
-            <a href="#">Pricing</a>
-        </nav>
-        <div class="auth">
-            <a href="#">Sign in</a>
-            <button>Sign up</button>
-        </div>
-    </header>
+<!-- Navbar -->
+<header class="navbar">
+    <div class="nav-left">GitHub</div>
+    <input type="text" placeholder="Search">
+</header>
 
-    <!-- Main Section -->
-    <section class="hero">
-        <div class="hero-text">
-            <h1>Where the world builds software</h1>
-            <p>
-                Millions of developers use GitHub to build, ship, and maintain
-                software together.
-            </p>
-            <form class="signup-form">
-                <input type="email" placeholder="Email address">
-                <button type="submit">Sign up for GitHub</button>
-            </form>
+<!-- Main Container -->
+<div class="container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h2>Maha Vignesh Shree</h2>
+        <p class="username">@mahavignesh</p>
+        <p>Aspiring Full Stack Developer</p>
+        <p>📍 India</p>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content">
+
+        <h3>Repositories</h3>
+
+        <div class="repo-grid">
+            <div class="repo-card">
+                <h4>HTML & CSS Practice</h4>
+                <p>Frontend practice projects</p>
+            </div>
+
+            <div class="repo-card">
+                <h4>Java OOP Assignments</h4>
+                <p>OOP concepts in Java</p>
+            </div>
+
+            <div class="repo-card">
+                <h4>GUVI Tasks</h4>
+                <p>Daily tasks and exercises</p>
+            </div>
+
+            <div class="repo-card">
+                <h4>Mini Projects</h4>
+                <p>Small web applications</p>
+            </div>
         </div>
-    </section>
+
+        <h3>Contribution Activity</h3>
+        <div class="activity-box">
+            Recent commits and activity will appear here.
+        </div>
+
+    </main>
+
+</div>
 
 </body>
 </html>
