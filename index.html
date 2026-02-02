@@ -1,65 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>GitHub Profile Clone</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <title>GitHub Profile Page</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Navbar -->
-<header class="navbar">
-    <div class="nav-left">GitHub</div>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">🐙 GitHub</div>
     <input type="text" placeholder="Search">
-</header>
+  </header>
 
-<!-- Main Container -->
-<div class="container">
+  <!-- Main Container -->
+  <div class="container">
 
-    <!-- Sidebar -->
-    <aside class="sidebar">
-        <h2>Maha Vignesh Shree</h2>
-        <p class="username">@mahavignesh</p>
-        <p>Aspiring Full Stack Developer</p>
-        <p>📍 India</p>
+    <!-- Left Profile -->
+    <aside class="profile">
+      <h2>Profile</h2>
+      <p>Username</p>
+      <p>Bio information</p>
     </aside>
 
-    <!-- Main Content -->
+    <!-- Right Section -->
     <main class="content">
 
-        <h3>Repositories</h3>
-
-        <!-- BOXES IN STRAIGHT LINE -->
-        <div class="repo-row">
-            <div class="repo-card">
-                <h4>HTML & CSS Practice</h4>
-                <p>Frontend practice projects</p>
-            </div>
-
-            <div class="repo-card">
-                <h4>Java OOP Assignments</h4>
-                <p>OOP concepts in Java</p>
-            </div>
-
-            <div class="repo-card">
-                <h4>GUVI Tasks</h4>
-                <p>Daily tasks and exercises</p>
-            </div>
-
-            <div class="repo-card">
-                <h4>Mini Projects</h4>
-                <p>Small web applications</p>
-            </div>
+      <!-- Repo Cards -->
+      <section class="cards">
+        <div class="card">
+          <h3>Repository 1</h3>
+          <p>Project description</p>
         </div>
+        <div class="card">
+          <h3>Repository 2</h3>
+          <p>Project description</p>
+        </div>
+        <div class="card">
+          <h3>Repository 3</h3>
+          <p>Project description</p>
+        </div>
+      </section>
 
+      <!-- Activity -->
+      <section class="long-box">
         <h3>Contribution Activity</h3>
-        <div class="activity-box">
-            Recent commits and activity will appear here.
-        </div>
+        <p>Recent commits and activity appear here</p>
+      </section>
 
     </main>
 
-</div>
+  </div>
 
 </body>
 </html>
